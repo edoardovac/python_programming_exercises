@@ -11,4 +11,5 @@ while surname != "ok":
     surnames.append(surname)
     surname = input("Enter a surname (ok ends): ")
 surnames = sorted(set(surnames))
+print()
 print(*surnames, sep=", ")

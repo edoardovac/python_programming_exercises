@@ -8,4 +8,5 @@ for i in range(5):
     given_int = int(input("Enter an integer: "))
     integers.append(given_int)
 integers.sort(reverse=True)
-print(*integers)
+print()
+print(*integers, end=" ")
