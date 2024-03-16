@@ -5,3 +5,5 @@ if given_text == given_text[::-1]:
     print("Yes")
 else:
     print("No")
+
+# it wants the word "reverse"
