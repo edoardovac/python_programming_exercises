@@ -6,6 +6,5 @@ while (given_text != "quit"):
         count += 1
     given_text = input("Enter next string: ")
 print()
-if count > 0:
-    print(f"{count} pearls")
+print(f"{count} pearls")
 print("Bye!")
