@@ -3,14 +3,19 @@ def sum_every_other(values : list):
     if len(values) == 0:
         return None
     else:
-        lowest = min(values)
-        highest = max(values)
-        total = highest - lowest
-        total_every_other = total - sum(values)
+        others = []
+        for i in range(len(values)):
+            if i not in values:
+                others.append(i)
+        total_every_other = sum(others)
         return total_every_other
-    
+
 def main():
-    pass
+    values = []
+    for i in range(4):
+        given_num = int(input("Enter an integer: "))
+        values.append(given_num)
+    print(sum_every_other(values))
 
 if __name__ == "__main__": 
     main()
