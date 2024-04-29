@@ -6,4 +6,3 @@ values = sorted(values)
 distint_values = set(values)
 print(*distint_values, sep=", ")
 print(*values, sep=", ")
-

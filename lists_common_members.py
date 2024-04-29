@@ -1,12 +1,13 @@
 def common_members(first_list : list, second_list : list):
-    for i in range(len(common_members)):
-        if first_list[i] in second_list:
+    for member in first_list:
+        if member in second_list:
             return True
-    else:
-        return False
-
+    return False
+    
 def main():
-    pass
+    first_list = [1, 2, 3]
+    second_list = [3, 5, 6]
+    print(common_members(first_list, second_list))
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     main()

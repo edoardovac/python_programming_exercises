@@ -3,7 +3,8 @@ def count_distinct(values : list):
     return  total_distinct
 
 def main():
-    pass
+    values = ["alpha", "beta", "charlie", "charlie"]
+    print(count_distinct(values))
 
 if __name__ == "__main__": 
     main()
