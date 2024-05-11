@@ -9,6 +9,7 @@ def print_matrix_sum(first : list, second : list):
     for row in return_matrix:
         for column in row:
             print(column, end=" ")
+        print()
 
 def main():
     m1 = [[1, 2, 0], [2, 3, 4]]
@@ -20,3 +21,4 @@ def main():
     print_matrix_sum(m3, m4)
 
 main()
+

@@ -1,6 +1,7 @@
-first = sorted(input("Enter first string: ").strip().lower())
-second = sorted(input("Enter second string: ").strip().lower())
-if first == second:
+first = (input("Enter first string: ").lower().replace(" ", ""))
+second = (input("Enter second string: ").lower().replace(" ", ""))
+
+if (sorted(first) == sorted(second)):
     print("Same characters")
-else: 
+else:
     print("Different characters")
